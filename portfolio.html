@@ -18,19 +18,31 @@
     <!--Шапка сайта-->
 
 <header class="header ">
-    <div class="container main-nav ">
+    <div class="container main-nav">
         <nav class="header-nav main-nav ">
             <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-            <ul class="header-list main-nav ">
+            <ul class="header-list main-nav">
                 <li class="header-item"><a href="./index.html" class="header-link ">Студия</a></li>
                 <li class="header-item"><a href="./portfolio.html" class="header-link current">Портфолио</a></li>
                 <li class="header-item"><a href="" class="header-link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="header-info main-nav ">
-            <li class="header-item"><a class="header-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="header-info main-nav">
+            <li class="header-item-info">
+                <a class="header-info-link" href="mailto:info@devstudio.com">
+                    <svg class="header-icon" width="16" height="12">
+                        <use href="./images/icons.svg/symbol-defs.svg#icon-mail"></use>
+                    </svg> info@devstudio.com
+                </a>
             </li>
-            <li class="header-item"><a class="header-info-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+
+            <li class="header-item-info">
+                <a class="header-info-link" href="tel:+380961111111">
+                    <svg class="header-icon" width="16" height="12">
+                        <use href="./images/icons.svg/symbol-defs.svg#icon-telephone"></use>
+                    </svg>+38 096 111 11 11
+                </a>
+            </li>
         </ul>
     </div>
 </header>
@@ -51,7 +63,7 @@
             </ul>
             <ul class="portfolio-hero-list">
                 <li class="portfolio-hero-item"> 
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto1.jpg" alt="проэкт1" width="370" >
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Технокряк</h2>
@@ -60,7 +72,7 @@
                     </a> 
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto2.jpg" alt="проэкт2" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Постер New Orlean vs Golden Star</h2>
@@ -69,7 +81,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto3.jpg" alt="проэкт3" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Ресторан Seafood</h2>
@@ -78,7 +90,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto4.jpg" alt="проэкт4" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Проект Prime</h2>
@@ -87,7 +99,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto5.jpg" alt="проэкт5" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Проект Boxes</h2>
@@ -96,7 +108,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto6.jpg" alt="проэкт6" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Inspiration has no Borders</h2>
@@ -105,7 +117,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto7.jpg" alt="проэкт7" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Издание Limited Edition</h2>
@@ -114,7 +126,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto8.jpg" alt="проэкт8" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Проект LAB</h2>
@@ -123,7 +135,7 @@
                     </a>
                 </li>
                 <li class="portfolio-hero-item">
-                    <a href="">
+                    <a class="portfolio-hero-link" href="">
                         <img class="portfolio-hero-img" src="./images/foto9.jpg" alt="проэкт9" width="370">
                             <div class="portfolio-hero-content">
                                 <h2 class="portfolio-hero-title">Growing Business</h2>
@@ -140,13 +152,52 @@
 
 
     <footer class="footer">
-        <div class="container">
-        <a class="logo" href="./index.html"> Web<span class="logo-footer">Studio</span></a>
-        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="footer-info">
-            <li class="footer-info-item"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="footer-info-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="container footer-container">
+            <div class="footer-nav">
+                <a class="logo" href="./index.html"> Web<span class="logo-footer">Studio</span></a>
+                <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+                <ul class="footer-info">
+                    <li class="footer-info-item">
+                        <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-info-item">
+                        <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-container info">
+                <h3 class="footer-social-title">присоединяйтесь</h3>
+                <ul class="social-media-team">
+                    <li class="social-media-item">
+                        <a href="" class="footer-social-media">
+                            <svg class="social-media-icon" width="20" height="20">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="footer-social-media" href="">
+                            <svg class="social-media-icon" width="20" height="20">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="footer-social-media" href="">
+                            <svg class="social-media-icon" width="20" height="20">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="footer-social-media" href="">
+                            <svg class="social-media-icon" width="20" height="20">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
