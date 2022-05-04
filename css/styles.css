@@ -348,13 +348,18 @@ color: var(--primary-text-color);
 /* ------------------------Постоянные клиенты---------------- */
 
 .clients{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .clients-title{
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 .clients-list{
@@ -372,7 +377,6 @@ color: var(--primary-text-color);
     align-items: center;
     Width: 170px;
     Height: 92px;
-    background-color: var(--background-color);
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
@@ -445,9 +449,15 @@ color: var(--primary-text-color);
 
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--hero-text-color);
 }
 
@@ -481,6 +491,7 @@ color: var(--primary-text-color);
     text-align: center;
     min-width: 73px;
     border-radius: 4px;
+    border: none;
 
     background-color: var(--background-color-team);
     color: #212121;
